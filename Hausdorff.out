@@ -1,0 +1,51 @@
+Set Pair & p & Method & Homotopy & Maximum & Mean & Std &  Seconds \\ 
+(box, ball $\cap$ orthant) & 2 & proj grad & false & 1.8284 & 1.3314 & 0.40789 & 0.00163 \\ 
+(box, ball $\cap$ orthant) & 2 & proj grad & true & 1.8284 & 1.8284 & 0.0 & 0.00349 \\ 
+(box, ball $\cap$ orthant) & 2 & Frank-Wolfe & false & 0.41421 & 0.16569 & 0.20394 & 0.000564 \\ 
+(box, ball $\cap$ orthant) & 2 & Frank-Wolfe & true & 0.41421 & 0.41421 & 0.0 & 0.00101 \\ 
+(box, ball $\cap$ orthant) & 2 & point cloud & false & 1.8159 & 1.8159 & 0.0 & 0.625 \\ 
+(simplex, L1 ball) & 2 & proj grad & false & 1.4142 & 1.4142 & 0.0 & 0.001 \\ 
+(simplex, L1 ball) & 2 & proj grad & true & 1.4142 & 1.4142 & 0.0 & 0.00272 \\ 
+(simplex, L1 ball) & 2 & Frank-Wolfe & false & 1.4142 & 1.4142 & 0.0 & 0.000358 \\ 
+(simplex, L1 ball) & 2 & Frank-Wolfe & true & 1.4142 & 1.4142 & 0.0 & 0.0574 \\ 
+(simplex, L1 ball) & 2 & point cloud & false & 1.4142 & 1.4142 & 0.0 & 0.639 \\ 
+(box, ball $\cap$ orthant) & 3 & proj grad & false & 2.4641 & 1.6358 & 0.50531 & 7.34e-5 \\ 
+(box, ball $\cap$ orthant) & 3 & proj grad & true & 2.4641 & 2.4641 & 0.0 & 0.000605 \\ 
+(box, ball $\cap$ orthant) & 3 & Frank-Wolfe & false & 0.73205 & 0.31788 & 0.25266 & 7.08e-5 \\ 
+(box, ball $\cap$ orthant) & 3 & Frank-Wolfe & true & 0.73205 & 0.73205 & 0.0 & 0.000145 \\ 
+(box, ball $\cap$ orthant) & 3 & point cloud & false & 2.4221 & 2.4221 & 0.0 & 0.63 \\ 
+(simplex, L1 ball) & 3 & proj grad & false & 1.7321 & 1.7321 & 0.0 & 5.86e-6 \\ 
+(simplex, L1 ball) & 3 & proj grad & true & 1.7321 & 1.7321 & 0.0 & 0.000158 \\ 
+(simplex, L1 ball) & 3 & Frank-Wolfe & false & 1.2247 & 1.2247 & 0.0 & 4.44e-6 \\ 
+(simplex, L1 ball) & 3 & Frank-Wolfe & true & 1.2247 & 1.2247 & 0.0 & 0.00186 \\ 
+(simplex, L1 ball) & 3 & point cloud & false & 1.732 & 1.732 & 0.0 & 0.615 \\ 
+(box, ball $\cap$ orthant) & 10 & proj grad & false & 5.0 & 3.4576 & 0.73165 & 0.0001 \\ 
+(box, ball $\cap$ orthant) & 10 & proj grad & true & 5.3246 & 5.3246 & 0.0 & 0.000666 \\ 
+(box, ball $\cap$ orthant) & 10 & Frank-Wolfe & false & 2.0 & 1.2288 & 0.36583 & 9.71e-5 \\ 
+(box, ball $\cap$ orthant) & 10 & Frank-Wolfe & true & 2.1623 & 2.1623 & 0.0 & 0.000183 \\ 
+(box, ball $\cap$ orthant) & 10 & point cloud & false & 4.8158 & 4.8158 & 0.0 & 0.629 \\ 
+(simplex, L1 ball) & 10 & proj grad & false & 3.1623 & 3.1623 & 0.0 & 7.66e-6 \\ 
+(simplex, L1 ball) & 10 & proj grad & true & 3.1623 & 3.1623 & 0.0 & 0.000749 \\ 
+(simplex, L1 ball) & 10 & Frank-Wolfe & false & 2.6667 & 2.6667 & 0.0 & 7.83e-6 \\ 
+(simplex, L1 ball) & 10 & Frank-Wolfe & true & 2.6667 & 2.6667 & 0.0 & 0.00196 \\ 
+(simplex, L1 ball) & 10 & point cloud & false & 3.1626 & 3.1626 & 0.0 & 0.613 \\ 
+(box, ball $\cap$ orthant) & 100 & proj grad & false & 15.248 & 13.016 & 0.69754 & 0.000621 \\ 
+(box, ball $\cap$ orthant) & 100 & proj grad & true & 19.0 & 19.0 & 0.0 & 0.00126 \\ 
+(box, ball $\cap$ orthant) & 100 & Frank-Wolfe & false & 7.124 & 6.0078 & 0.34877 & 0.00168 \\ 
+(box, ball $\cap$ orthant) & 100 & Frank-Wolfe & true & 9.0 & 9.0 & 0.0 & 0.000304 \\ 
+(box, ball $\cap$ orthant) & 100 & point cloud & false & 15.598 & 15.598 & 0.0 & 0.629 \\ 
+(simplex, L1 ball) & 100 & proj grad & false & 10.0 & 10.0 & 0.0 & 2.77e-5 \\ 
+(simplex, L1 ball) & 100 & proj grad & true & 10.0 & 10.0 & 0.0 & 0.000852 \\ 
+(simplex, L1 ball) & 100 & Frank-Wolfe & false & 9.8494 & 9.8494 & 0.0 & 2.21e-5 \\ 
+(simplex, L1 ball) & 100 & Frank-Wolfe & true & 9.8494 & 9.8494 & 0.0 & 0.00299 \\ 
+(simplex, L1 ball) & 100 & point cloud & false & 9.9493 & 9.9493 & 0.0 & 0.64 \\ 
+(box, ball $\cap$ orthant) & 1000 & proj grad & false & 45.174 & 43.698 & 0.6652 & 0.00591 \\ 
+(box, ball $\cap$ orthant) & 1000 & proj grad & true & 62.246 & 62.246 & 0.0 & 0.00875 \\ 
+(box, ball $\cap$ orthant) & 1000 & Frank-Wolfe & false & 22.087 & 21.349 & 0.3326 & 0.00256 \\ 
+(box, ball $\cap$ orthant) & 1000 & Frank-Wolfe & true & 30.623 & 30.623 & 0.0 & 0.00531 \\ 
+(box, ball $\cap$ orthant) & 1000 & point cloud & false & 48.627 & 48.627 & 0.0 & 1.13 \\ 
+(simplex, L1 ball) & 1000 & proj grad & false & 31.623 & 31.623 & 0.0 & 0.000377 \\ 
+(simplex, L1 ball) & 1000 & proj grad & true & 31.623 & 31.623 & 0.0 & 0.0113 \\ 
+(simplex, L1 ball) & 1000 & Frank-Wolfe & false & 31.575 & 31.575 & 0.0 & 0.000303 \\ 
+(simplex, L1 ball) & 1000 & Frank-Wolfe & true & 31.575 & 31.575 & 0.0 & 0.013 \\ 
+(simplex, L1 ball) & 1000 & point cloud & false & 31.597 & 31.597 & 0.0 & 1.11 \\ 
