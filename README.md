@@ -2,7 +2,7 @@
 
 The Hausdorff distance between two closed sets has important theoretical and practical applications.
 Yet apart from finite point clouds, there appear to be no generic algorithms for computing this quantity.
-Because many infinite sets are defined by algebraic equalities and inequalities, this a huge gap.
+Because many infinite sets are defined by algebraic equalities and inequalities, this is a huge gap.
 The current paper constructs Frank-Wolfe and projected gradient ascent algorithms for computing the Hausdorff distance between two compact convex sets.
 Although these algorithms are guaranteed to go uphill, they can get trapped by local maxima.
 To avoid this defect, we investigate a homotopy method that gradually deforms two balls into the two target sets.
